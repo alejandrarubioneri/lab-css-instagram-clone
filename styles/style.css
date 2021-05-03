@@ -4,7 +4,165 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding-top: 100px;
+
+  background-image: url("/Users/alejandrarubio/Desktop/ironhack/labs/lab-css-instagram-clone/images/bgtile.png");
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+
+
+ 
+}
+
+
+h3 {
+  color: #06365f;
+  font-size: 48px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  line-height: 58px;
+}
+
+
+
+p {
+  font-size: 20px;
+}
+
+
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.row-2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 70px;
+
+}
+
+.phones {
+  width: 440px;
+}
+
+
+
+.row-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.log-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 22px;
+  padding-left: 10px;
+}
+
+
+
+.logo {
+  width: 475px;
+  padding-right: 11%;
+}
+
+
+
+.button {
+  background-image: linear-gradient(#76a7ce, #2a6494);
+  border-color: #06365f;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  width: 166px;
+  padding:0;
+} 
+
+.home {
+  width: 37px;
+  padding: 15px 11px 15px 0;
+}
+
+
+.log-line p {
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: 18px;
+
+
+}
+
+
+
+#white-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+#white-window .frame {
+  width: 834px;
+  padding-bottom: 50px;
+}
+
+
+#white-window .text {
+  width: 703px;
+  position: absolute;
+  padding-left: 74px;
+}
+
+
+.apps {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+.iphone, .android {
+  width: 250px;
+  padding-left: 50px;
+}
+
+
+
+footer {
+  margin: 40px 0;
+  padding-top: 46px;
+}
+
+footer ul {
+  list-style: none;
+  color: #1c5380;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  padding: 0 14px;
+}
+
+.grey-text {
+  color: grey;
 }
